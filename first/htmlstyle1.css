@@ -1,0 +1,72 @@
+html, body{
+	width: 900px;
+	
+}
+.red {
+	background-color: red;
+}
+.blue {
+	background-color: blue;
+}
+.grey {
+	background-color: grey;
+}
+
+.text {
+	font-family: sans-serif;
+	font-size: 20px;
+	margin: 10px 50px;
+}
+.top {
+	height: 100px;
+	width: 200px;
+	margin: 10px 50px 10px 50px;
+	float: left;
+	display: inline-block;
+
+}
+.middle {
+	height: 300px;
+	width: 800px;
+	margin: 10px 50px;
+}
+.middle .red {
+	float: left;
+	width: 300px;
+	margin: 0px;
+	position: absolute;
+}
+.bottom {
+	width: 800px;
+	height: 100px;
+	margin: 10px 50px;
+}
+/*.bottom .red {
+	margin: 0px;
+	float: right;
+	position: absolute;
+	width: 300px;
+	right: 0px;	
+
+}
+.bottom .grey {
+	position: absolute;
+	margin: 0px 25px;
+	width: 100px;
+	right: 0px;
+}*/
+.bottom .blue {
+	margin: 0px;
+	position: absolute;
+	width: 600px;
+	float: left;
+}
+.bottom .grey {
+	float: right;
+	width: 150px;
+	margin: 0px;
+	position: absolute;
+	margin-left: 625px;
+	
+
+}
